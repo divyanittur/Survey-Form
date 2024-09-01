@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survery Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+ <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+   <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="name">Name <input type="text" id="name" name="name" placeholder="Enter Your Name"required></label>
+      <label id="email-label" for="email">Email <input type="email" id="email" name="email" placeholder="Enter Your Email"required></label>
+        <label id="number-label" for="age">Age <input type="number" id="number" name="number" min="18" max="55" required placeholder="Enter Your Age"></label>
+         </fieldset>
+<label> Current role: </label>  
+<select id= "dropdown">
+  <option value=""> Select current job title </option>
+  <option value="1"> Student </option>
+  <option value="2"> New grad job </option>
+  <option value="3"> 1-3yrs experience </option>
+  <option value="4"> 4-8yrs experience </option>
+  <select>
+  </label>
+  <label>Would you be willing to take additional surveys? </label>
+   <label for="definitely"><input value="Definitely"  name="radio-group"  type="radio" class="inline"/> Definitely</lable>
+     <label for="Maybe"><input value="Maybe" type="radio" name="radio-group" class="inline"/>Maybe</lable>
+    <label for="Not-sure"><input  value="Not-sure" type="radio" name="radio-group" class="inline"/> Not sure</label>
+</label>
+<label> What are your favorite seasons? </label>
+<input value="Winter" name="Winter" type="checkbox" class="inline"/>Winter</label>
+        <label><input value="Autumn" type="checkbox" name="Autumn" class="inline"/>Autumn</label>
+        <label><input  value="Summer" type="checkbox" name="Summer" class="inline"/>Summer</label>
+        <label><input value="Spring"  name="Spring"  type="checkbox" class="inline"/>Spring</label>
+        <label><input value="fall" type="checkbox" name="fall" class="inline"/>Fall</label>     
+  </fieldset>
+  <fieldset>
+    <label>Do you have any questions? 
+<textarea placeholder> Type here... </textarea>
+    </label>
+ <button id="submit">Submit</button>
+    </fieldset>
+    </form>
+    </body>
+    </html>
+
+
+  
