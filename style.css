@@ -1,0 +1,16 @@
+h1{
+  font: Arial;
+  font-color: blue;
+  margin-top: 20px;
+  font-size: 22;
+  margin: 1em auto;
+  text-align: center;
+}
+p{
+  font-size: 17;
+  margin: auto;
+}
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
